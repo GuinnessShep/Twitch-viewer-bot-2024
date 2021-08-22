@@ -122,11 +122,14 @@ def initApi(email, pw):
 	return vk
 
 # owner_id=532641550, offset=0, count=20
-def getWall(vk, cookie, domain, offset=0, count=20, extended=1):
-	res = vk.wall.get(domain=domain, offset=offset, count=count, extended=extended)
+def getWall(vk, cookie, owner_id, domain, offset=0, count=20, extended=1):
+	if domain != '':
+		res = vk.wall.get(domain=domain, offset=offset, count=count, extended=extended)
+	elif owner_id != '':
+		res = vk.wall.get(owner_id=owner_id, offset=offset, count=count, extended=extended)
 
 	if ('items' in res) and ( len(res['items']) == 0 ):
-		print(f'No Post Found For {domain}')
+		print(f'No Post Found')
 		return
 
 	# wall folder
@@ -220,6 +223,11 @@ if __name__ == "__main__":
 	vk = initApi(email, pw)
 
 	# count = 100 (max)
-	getWall(vk, cookie, domain=domain, offset=offset, count=count)
+	owner_id = ''
+	if domain.find('public') != -1 or domain.find('club') != -1:
+		owner_id = domain.replace('public', '-').replace('club', '-')
+		domain = ''
+	
+	getWall(vk, cookie, owner_id=owner_id, domain=domain, offset=offset, count=count)
 
 	toast.show_toast("Vk Downloader","Download completed!",duration=3)

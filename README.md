@@ -41,3 +41,6 @@ py vk.py <domain> <offset> <count>
 
 For example, run `py vk.py user01 0 20` will start to get all photo or video from wall of **user01**, starting from post 0 to 19
 
+## Bug
+
+Tell me
