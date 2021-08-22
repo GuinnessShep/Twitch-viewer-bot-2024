@@ -34,7 +34,9 @@ py vk.py <domain> <offset> <count>
 ```
 
 > domain: User or community short address ( vk.com/user01 )
+>
 > offset: Offset needed to return a specific subset of posts (positive number)
+>
 > count: Number of posts to return (positive number) (maximum 100)
 
 For example, run `py vk.py user01 0 20` will start to get all photo or video from wall of **user01**, starting from post 0 to 19
