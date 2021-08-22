@@ -1,7 +1,7 @@
 
 # vkontakte-downloader
 
-Download Photo and Video from Wall of specific User or Community
+Download Photo and Video from Wall of specific User or Community on https://vk.com
 
 ## Setup
 
